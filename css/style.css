@@ -316,7 +316,7 @@ header .navbar ul li a:hover{
     border: 1px solid #222;
     border-radius: 10px;
     overflow: hidden;
-    transition: all 0,3s cubic-bezier(.25,.8,.25,.1);
+    transition: all 3s cubic-bezier(.25,.8,.25,.1);
 }
 
 .skill .box-container .box .skill_bar span {
@@ -326,7 +326,7 @@ header .navbar ul li a:hover{
 }
 
 .skill .box-container .box .skill_bar .html {
-    width: 44%;
+    width: 55%;
     animation: html 2s;
 }
 
