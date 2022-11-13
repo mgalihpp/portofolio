@@ -327,22 +327,22 @@ header .navbar ul li a:hover{
 
 .skill .box-container .box .skill_bar .html {
     width: 55%;
-    animation: html 2s;
+    animation: html 5s;
 }
 
 .skill .box-container .box .skill_bar .css {
     width: 23%;
-    animation: css 2s;
+    animation: css 5s;
 }
 
 .skill .box-container .box .skill_bar .js {
     width: 11%;
-    animation: js 2s;
+    animation: js 5s;
 }
 
 .skill .box-container .box .skill_bar .react {
     width: 2%;
-    animation: react 2s;
+    animation: react 5s;
 }
 
 @keyframes html {
@@ -351,7 +351,7 @@ header .navbar ul li a:hover{
     }
 
     100% {
-        width: 44%;
+        width: 55%;
     }
 }
 
@@ -406,7 +406,7 @@ header .navbar ul li a:hover{
 .project .box-container .box img{
     height:100%;
     width:100%;
-    /*object-fit: cover;*/
+    object-fit: fill; /*cover */
 }
 
 .project .box-container .box:hover img{
