@@ -406,7 +406,7 @@ header .navbar ul li a:hover{
 .project .box-container .box img{
     height:100%;
     width:100%;
-    object-fit: cover;
+    /*object-fit: cover;*/
 }
 
 .project .box-container .box:hover img{
